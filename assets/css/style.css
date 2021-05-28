@@ -1133,3 +1133,100 @@ figure.effect-bubba-col:hover p {
         width: 80px;
     }
 }
+
+.footer-w3layouts {
+    background: #383536;
+    padding: 5em 3em;
+    width: 100%;
+}
+
+.footer-top-agile h2 a {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px #10080b; */
+}
+
+.footer-contact-w3ls {
+    float: right;
+}
+
+p.num-w3ls {
+    color: #fff;
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 6px;
+}
+
+p.email-w3l a {
+    color: #999;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+p.email-w3l a:hover {
+    color: #ffa81d;
+}
+
+p.email-w3l {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.nav-footer-w3l a {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 18px;
+}
+
+.nav-footer-w3l a:hover {
+    color: #ffa81d;
+}
+
+.nav-footer-w3l a:nth-child(5) {
+    margin-right: 0px!important;
+}
+
+.nav-footer-w3l {
+    float: left;
+    margin-top: 0.8em;
+}
+
+.footer-bottom-wthree {
+    margin-top: 5em;
+}
+
+.footer-button {
+    float: right;
+}
+
+.footer-button a {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    background: #ffa81d;
+    border: none;
+    border-top: 2px solid #ffa81d;
+    border-bottom: 2px solid #ffa81d;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer-button a:hover {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+    letter-spacing: 5px;
+}
