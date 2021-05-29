@@ -17,13 +17,13 @@ if(isset($_POST['message'])){
 	$status = mail($to, $subject, $message, $headers);
 
 	if($status == TRUE){	
-		$res['sendstatus'] = 'сделано';
+		$res['sendstatus'] = 'done';
 	
 		//Edit your message here
-		$res['message'] = 'Форма отправлена ​​успешно';
+		$res['message'] = 'Form Submission Successful';
     }
 	else{
-		$res['message'] = 'Не удалось отправить почту. Напишите мне на адрес tipa.ivan0806@gmail.com';
+		$res['message'] = 'Failed to send mail. Please mail me to tipa.ivan0806@gmail.com';
 	}
 	
 	
